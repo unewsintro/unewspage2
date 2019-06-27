@@ -1,0 +1,564 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 4100px;
+    background: linear-gradient(180deg, #BCBCBC 82.29%, rgba(0, 0, 0, 0) 96.35%);
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+div.position-fixed {
+    width: 100%;
+    height: 75px;
+    background-color: red;
+}
+
+.position-fixed {
+    position: fixed;
+    z-index: 2;
+
+}
+
+.div.title-block-left {
+    width: 266px;
+    height: 100px;
+    background-color: red;
+}
+
+
+.title-block-right {
+    width: 100px;
+    height: 40px;
+    background-color: #850000;
+    margin-right: 50px;
+    margin-top: 15px;
+    position: relative;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+/*並排母容器*/
+.ccle {
+    margin: 0px auto;
+    text-align: center;
+    max-width: 1040px;
+}
+
+.div-with {
+    display: inline-block;
+    /*讓div並排*/
+    vertical-align: top;
+    /*就算個個div行數不同，也一律向上對齊*/
+    width: 257px;
+    height: 303px;
+    border: 0px solid black;
+    border-radius: 3px;
+    margin: 2px;
+    margin: 30px;
+}
+
+.div-inline-div {
+    width: 257px;
+    height: 80px;
+    background-color: #DBDBDB;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.div-inline-div-a {
+    font-size: 18px;
+    line-height: 35px;
+    color: black;
+    font-family: 'Noto Serif TC', serif;
+    margin-top: 10px;
+
+
+
+
+}
+
+.headphoto {
+    width: 300px;
+    height: auto;
+}
+
+.introduce {
+    width: 102px;
+    height: 48px;
+    position: absolute;
+    font-family: 'Noto Serif TC', serif;
+    background-color: #CA0202;
+    color: white;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+
+}
+
+div.title1 {
+    display: block;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(202, 2, 2, 0.75);
+    font-family: 'Noto Serif TC', serif;
+    left: 43.2%;
+    position: absolute; width: 14.02%; height: 1.1904%;  top: 5.357%;
+}
+
+div.flex1{
+    display: flex;
+    width: 960px;
+    height: 286px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 214px;
+    flex-wrap:nowrap;
+}
+
+img.pc1{
+    width: 279px;
+    height: 264px;
+    margin:23 46 1 19;
+}
+
+div.text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    width: 555px; height: 145px;
+    margin:91 61 56 46;
+}
+
+div.video{
+    display: flex;
+    width: 862px; height: 485px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 104px;
+    flex-wrap: nowrap;
+    justify-items: center;
+}
+
+div.title2 {
+    display: block;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(202, 2, 2, 0.75);
+    font-family: 'Noto Serif TC', serif;
+    left: 43.2%;
+    position: absolute; width: 14.02%; height: 1.1904%;  top: 1340px;
+}
+
+div.subtitle1{
+
+    position: absolute;
+    width: 716px;
+    height: 85px;
+    left: 388px;
+    top: 1490px;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+img.pc2{
+    position: absolute;
+    width: 862px;
+    height: 565px;
+    left: 291px;
+    top: 1633px;;
+}
+
+img.pc3{
+    position: absolute;
+    width: 862px;
+    height: 485px;
+    left: 288px;
+    top: 2541px;
+
+}
+
+div.title3{
+    display: block;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(202, 2, 2, 0.75);
+    font-family: 'Noto Serif TC', serif;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    left: 682px;
+    top: 2400px;
+}
+
+div.subtitle2{
+    position: absolute;
+    width: 457px;
+    height: 175px;
+    left: 500px;
+    top: 3200px;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+div.bigbox{
+    display:flex;
+    width: 864px;
+    height: 400px;
+    margin:2294 288 344 288;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+div.box1{
+    display: flex;
+    width: 337px;
+    height: 400px;
+    background: #DBDBDB;
+    flex-direction: column;
+
+}
+
+div.box2{
+    display: flex;
+    width: 337px;
+    height: 400px;
+    background: #DBDBDB;
+    flex-direction: column;
+}
+
+div.bottom1{ 
+   display: flex;
+    width: 258px;
+    height: 103px;
+    background: rgba(202, 2, 2, 0.75);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin:41 40 0 39;
+}
+
+div.bottom2{ 
+    display: flex;
+     width: 258px;
+     height: 103px;
+     background: rgba(202, 2, 2, 0.75);
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     margin:41 40 0 39;
+ }
+
+a.bottomtext{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+div.text2{
+    width: 175px;
+    height: 77px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    width: 555px; height: 145px;
+    margin:62 100 117 62;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    position: relative;
+    width: 768px;
+    height: 4900px;
+    background: linear-gradient(180deg, #BCBCBC 82.29%, rgba(0, 0, 0, 0) 96.35%);
+    }
+
+    /*這邊都是header的*/
+
+    .headtop {
+        background-color: red;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        z-index: 2;
+        top:0px;
+    }
+
+    .title-block-right {
+
+        width: 70px;
+        height: 40px;
+        background-color: #850000;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+        font-size: 12px;
+        float: none;
+        display: inline-flex;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    div.position-fixed {
+        width: 100%;
+        height: 75px;
+        background-color: red;
+        bottom: 0px;
+    }
+    .headphoto2 {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        top: 20%;
+
+    }
+    .ccle2 {
+        margin: 0px auto;
+                     text-align: center;
+
+    }
+    .headphoto {
+        width: 0px;
+        height: auto;
+        margin-top: 20px;
+
+    }
+
+    .ccle2 div {
+        display: inline-block;
+         vertical-align: center;
+     
+    }
+
+    div.nav{
+        width:100%; height:1.85567% ;min-height: 45px; background-color:rgba(202, 2, 2, 0.75);
+    }
+
+    div.title1 {
+        position: absolute;
+        width:calc(97/360*100%);
+        height:calc(24/2425*100%);
+        left:calc(66/360*100%);
+        top: 0px;
+        font-size: 48px;
+        line-height:56px;
+    }
+
+
+    div.flex1{
+
+        display: flex;
+        width: 576px;
+        height: 1120px;
+        margin-left: 96px;
+        margin-right:96px;
+        margin-top: 224px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    img.pc1{
+        width:576px;
+        height:544px;
+        margin:61.86 0 111 0;
+    }
+    
+    div.text{
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #000000;
+        width:518.4px; height: 384px;
+        margin:0 23.46px 19.1px 34.13333px;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    div.video{
+        width: 768px;
+        height: 432px;
+        margin-top: 108.7999px;
+    }
+
+    div.title2 {
+        position: absolute;
+        width:calc(97/360*100%);
+        height:calc(24/2425*100%);
+        left:130.1px;
+        top: 1800px;
+        font-size: 48px;
+        line-height:56px;
+    }
+
+    div.subtitle1{
+
+        position: absolute;
+        width: 544px;
+        height:96px;
+        left:128px;
+        top: 1930.1px;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    img.pc2{
+        position: absolute;
+        width: 768px;
+        height: 501.33px;
+        left: 0px;
+        top: 2090.134px;
+    }
+
+    div.title3 {
+        position: absolute;
+        width:calc(43/360*100%);
+        height:calc(24/2425*100%);
+        left:130.1px;
+        top: 2830.134px;
+        font-size: 48px;
+        line-height:56px;
+        
+    }
+
+    img.pc3{
+        position: absolute;
+        width: 768px;
+        height: 501.33px;
+        left: 0px;
+        top: 2958.134px;
+    }
+
+    .cover>img {
+        object-fit: cover;
+      }
+
+    div.subtitle2{
+        position: absolute;
+        width: 520.532px;
+        height: 190px;
+        left: 123.7333px;
+        top: 3960.134px;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+
+    }
+
+    div.bigbox{
+        display:flex;
+        width: 640px;
+        height: 340px;
+        margin:2594.133 64 136.533 64;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: nowrap;
+    }
+    
+    div.box1{
+        display: flex;
+        width: 294.4px;
+        height: 341.33px;
+        background: #DBDBDB;
+        flex-direction: column;
+    
+    }
+    
+    div.box2{
+        display: flex;
+        width: 294.4px;
+        height: 341.33px;
+        background: #DBDBDB;
+        flex-direction: column;
+    }
+    
+    div.bottom1{ 
+       display: flex;
+        width: 247.466px;
+        height: 100.266px;
+        background: rgba(202, 2, 2, 0.75);
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin:29.86 23.46 0 23.46;
+    }
+    
+    div.bottom2{ 
+        display: flex;
+        width: 247.466px;
+        height: 100.266px;
+        background: rgba(202, 2, 2, 0.75);
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin:29.86 23.46 0 23.46;
+    }
+    
+    a.bottomtext{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 48px;
+        line-height: 56px;
+        color: #FFFFFF;
+    }
+    
+    div.text2{
+        width: 294.4px;
+        height: 115.2px;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        color: #000000;
+        margin:44.8 0 51.2 0;
+    }
+}
+
+
+img.logo {
+    margin-left: 50px;
+    animation-name: logo-shake;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-grow: 1;
+}
+
+nav>ul>li {
+    padding: 15px;
+}
+
+
+
+a:hover {
+    color: black;
+    border-bottom: 1px solid rgb(208, 5, 26);
+    transform: translateX(5px);
+    transition: transform .1s linear;
+}
+
+a {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
